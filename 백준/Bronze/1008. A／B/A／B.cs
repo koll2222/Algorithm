@@ -7,6 +7,6 @@ public class Study
             string[] txt = Console.ReadLine().Split();
             A = int.Parse(txt[0]);
             B = int.Parse(txt[1]);
-            Console.WriteLine((decimal)A/B);
+            Console.WriteLine((double)A/B);
         }
     }
