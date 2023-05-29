@@ -6,7 +6,7 @@ public class Solution {
         string tmp = n.ToString();
         for(int i = 0; i < tmp.Length; i++)
         {
-            answer += (int)tmp[i] - '0';
+            answer += tmp[i] - '0';
         }
         return answer;
     }
